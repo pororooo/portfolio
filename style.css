@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;500;700&display=swap');
+
+*{
+    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif; 
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+section{
+    height: 100vh;
+}
+
+
+/* navbar */
+.logo a {
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+  }
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    padding: 1.5rem;
+}
+.menu li{
+    list-style: none; 
+    display: inline-block;
+    padding: 0rem;
+}
+.menu li a{
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+}
+.menu li a:hover{
+    background: rgb(190, 132, 230);
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+  }
+
+
+  /* home */
+.home {
+    display: flex;
+    background: url("./asetts/photos/violet.jpg") no-repeat center;
+    background-size: cover;
+    font-weight: 500;
+    color: black;
+    align-items: center;
+  }
+.home .text{
+      margin-left: 10rem;
+      font-size: 2rem;
+  }
+.home .text span{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+h1{
+    font-size: 2rem;
+}
+
+
+/* about me */
+.about-me {
+    display: flex;
+    background: rgb(169, 52, 185);
+    color: rgb(255, 255, 255);
+    justify-content: center;   
+    align-items: center; 
+    flex-direction: column;
+  }
+  .about-me .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background: rgb(255, 255, 255);
+    color: rgb(169, 52, 185);
+    border-radius: 2.5rem;
+    padding: 1rem 2rem;
+  }
+  .about-me-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding: 0 4rem;
+  }
+  .about-me-content .column{
+      padding: 2rem;
+  }
+  .about-me-content p{
+    font-size: 1.5rem;
+    padding: 1.2rem 0;
+}
+.about-me-content span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+  .about-me-content img{
+    border-radius: 1000rem;
+    width: 18rem;
+    height: 18rem;
+  }
+
+
+  /* skills */
+.skills{
+    display: flex;
+    background: rgb(190, 132, 230);
+    color: rgb(0, 0, 0);
+    justify-content: center;   
+    align-items: center; 
+    flex-direction: column;
+  }
+  .skills .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background: rgb(0, 0, 0);
+    color: rgb(190, 132, 230);
+    border-radius: 2.5rem;
+    padding: 1rem 2rem;
+  }
+  .skills-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding: 0 4rem;
+  }
+  .skills-column{
+    padding: 2rem 1rem 2rem 0;
+    margin: 2rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.2rem;
+
+  }
+  .skills-column:hover{
+    transform: scale(105%);
+    transition: all 0.5s;
+  }
+  .skills-column .text span{
+      font-size: 1.7rem;
+      margin: 1rem;
+  }
+  .skills-column .text li{
+    list-style: none;
+}
+.name{
+    font-weight: 600;
+}
+
+
+/* education */
+
+.education{
+    display: flex;
+    background: rgb(169, 52, 185);
+    color: rgb(255, 255, 255);
+    justify-content: center;   
+    align-items: center; 
+    flex-direction: column;
+  }
+  .education .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background: rgb(255, 255, 255);
+    color: rgb(169, 52, 185);
+    border-radius: 2.5rem;
+    padding: 1rem 2rem;
+  }
+  .education-content .text{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding: 0 4rem;
+  }
+  .education-column{
+    padding: 2rem 1rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.2rem;
+
+  }
+  .education-column:hover{
+    transform: scale(105%);
+    transition: all 0.5s;
+  }
+  .education-column span{
+      font-size: 1.7rem;
+      margin: 1rem;
+      font-weight: 600;
+  }
+  .education-column p{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+}
+  .skills-column .text li{
+    list-style: none;
+}
